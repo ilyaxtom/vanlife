@@ -1,0 +1,35 @@
+.host-van-detail-layout-container {
+    background-color: white;
+    padding: 24px;
+    margin: 30px 26px;
+}
+
+.host-van-detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.host-van-detail > img {
+    flex: 1 1 auto;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.host-van-detail-info-text {
+    flex: 1 1 auto;
+}
+
+.host-van-detail-info-text > h3 {
+    margin-top: 24px;
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.host-van-detail-info-text > h4 {
+    font-size: 20px;
+    margin-block: 0;
+}
