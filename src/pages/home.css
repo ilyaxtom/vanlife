@@ -5,7 +5,7 @@
     -o-background-size: cover;
     background-size: cover;
     min-height: 350px;
-    height: calc(100vh - 110px);
+    height: calc(100vh - 110px - 74px);
     display: flex;
     justify-content: center;
     align-items: center;
