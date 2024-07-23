@@ -1,0 +1,20 @@
+.not-found-container {
+    padding: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+    height: calc(100vh - 110px - 74px);
+}
+
+.not-found-container .link-button {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #161616;
+    border-radius: 5px;
+}

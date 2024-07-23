@@ -32,6 +32,12 @@
     cursor: pointer;
 }
 
+.van-list-filter-buttons {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
 .van-type {
     height: 34px;
     padding: 6px 26px;
@@ -42,6 +48,7 @@
     background-color: #FFEAD0;
     color: #4D4D4D;
     transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
 }
 
 .van-type:hover {
